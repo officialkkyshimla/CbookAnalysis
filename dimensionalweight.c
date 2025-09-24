@@ -10,8 +10,8 @@ int main()
   scanf("%d",&length);
   volume = height * width * length;
   weight = (volume+165)/166;
-  printf("The Volume of the Box is : %d\n",volume);
-  printf("The Weight of the box is : %d",weight);
+  printf("The Volume of the Box is : %d\n cube per inch",volume);
+  printf("The Weight of the box is : %d pound",weight);
   return 0;
 }
 
